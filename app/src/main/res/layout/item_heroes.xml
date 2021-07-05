@@ -20,6 +20,7 @@
         android:layout_gravity="bottom"
         android:layout_marginStart="16dp"
         android:layout_marginBottom="24dp"
+        android:textColor="@color/black"
         android:background="@drawable/textview_box"
         android:gravity="center"
         android:minWidth="250dp"
