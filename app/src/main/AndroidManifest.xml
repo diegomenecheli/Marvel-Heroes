@@ -14,9 +14,11 @@
         android:theme="@style/Theme.MarvelHeroes">
         <activity
             android:name=".ui.HeroesActivity"
-            android:theme="@style/Theme.AppCompat.NoActionBar"
-            android:parentActivityName=".ui.MainActivity"/>
-        <activity android:name=".ui.MainActivity">
+            android:parentActivityName=".ui.MainActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".ui.MainActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
